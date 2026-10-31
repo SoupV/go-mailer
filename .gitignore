@@ -1,0 +1,12 @@
+# Локальная конфигурация и секреты.
+.env
+.env.*
+!.env.example
+/options.json
+
+# Результаты сборки, покрытия и локальные базы данных.
+/bin/
+/coverage.out
+*.db
+*.sqlite
+*.sqlite3
